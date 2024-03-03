@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luca Cassia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile_picture.jpg" alt="Profile Picture" style="width: 150px; height: auto;">
+            <h1>Luca Cassia</h1>
+            <p>Research Fellow in Pure Mathematics</p>
+            <p> <a href="http://ms.unimelb.edu.au/">School of Mathematics and Statistics</a><br>
+                <a href="http://www.unimelb.edu.au/"> University of Melbourne </a> <br>
+                    Parkville VIC 3010<br>
+                    Australia <br>
+                    Office: G60 Peter Hall Building<br> 
+                <a href="mailto:luca.cassia@unimelb.edu.au">luca.cassia@unimelb.edu.au</a><br>
+            </p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my personal webpage! I am a research fellow at the University of Melbourne with a strong passion for mathematical and theoretical physics.</p>
+            <p>I earned my PhD in theoretical physics from the University of Milano-Bicocca in 2019. Subsequently, I held PostDoc positions at Uppsala University and Durham University. Currently, I am a PostDoc researcher in the mathematics department at the University of Melbourne.</p>
+        </div>
+    </section>
+    <section id="research">
+        <div class="container">
+            <h2>Research Interests</h2>
+            <p>My research interests include...</p>
+            <ul>
+                <li>matrix models</li>
+                <li>topological recursion</li>
+                <li>BPS/CFT correspondence</li>
+                <li>quantum algebras</li>
+                <li>topological string theory</li>
+                <li>quantum cohomology and mirror symmetry</li>
+                <li>enumerative geometry</li>
+            </ul>
+        </div>
+    </section>
+    <section id="publications">
+        <div class="container">
+            <h2>Publications</h2>
+            <ul id="publication-list">
+                <div id="bibtex_display"></div>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>You can reach me at:</p>
+            <ul>
+                <li>Email: luca.cassia@unimelb.edu.au</li>
+                <li>Office: G60 Peter Hall Building, The University of Melbourne, Parkville VIC 3010</li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Luca Cassia - All rights reserved</p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js@1.0.0/src/bibtex_js.min.js"></script>
+
+    <bibtex src="publications.bib"></bibtex>
+
+<div class="bibtex_template">
+    <div style="font-weight: bold;">
+        <span class="title "></span>
+    </div>
+    <div style="margin-left: 10px; margin-bottom:5px;">
+        <span class="author"></span>
+    </div>
+    <div style="margin-left: 10px; margin-bottom:5px;">
+        <span class="if journal ">
+            Published in: <span class="journal" style="font-style: italic;"></span>
+        </span>
+        <span class="if volume " style="font-weight: bold;">
+            <span class="volume"></span>
+        </span>
+        <span class="if number ">
+            no. <span class="number "></span>
+        </span>
+        <span class="if year"> (<span class="year"></span>) </span>
+        <span class="if pages ">
+            <span class="pages "></span>,
+        </span>
+        <span class="if eprint ">
+            <a class="bibtexVar" href="https://arxiv.org/abs/+eprint+" extra="eprint">
+                arXiv:<span class="eprint"></span>
+            </a>
+        </span>
+    </div>
+    <div style="margin-left: 10px; margin-bottom:5px;">
+        <span class="if doi ">
+            <a class="bibtexVar" href="http://dx.doi.org/+DOI+" extra="doi">
+                https://dx.doi.org/<span class="doi"></span>
+            </a>
+        </span>
+    </div>
+</div>
+
+
+</body>
+</html>
+
